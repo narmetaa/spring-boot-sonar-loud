@@ -13,6 +13,7 @@ public class Employee {
 
 	private String empname;
 	private Double salary;
+	private String  designation;
 	private Timestamp doj;
 	private String dept;
 	
