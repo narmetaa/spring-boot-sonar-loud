@@ -42,6 +42,11 @@ public class Employeecontroller {
 
 	}
 
+	public String m1() {
+		
+		return null;
+	}
+	
 	@GetMapping("/findbyid/{id}")
 	public Optional<Employee> findById(@PathVariable Long id) {
 
